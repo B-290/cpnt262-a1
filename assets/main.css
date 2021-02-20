@@ -1,0 +1,107 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+     flex-wrap: wrap;
+     flex-shrink: 1;
+     flex-basis: 29px
+
+     } 
+
+.dropdown { 
+
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+ 
+  margin-bottom: 25px;
+  list-style: none;
+  flex-shrink:initial;
+
+}
+
+.lists ul {
+  
+  list-style: none;
+
+} 
+
+menu li {
+  
+  list-style: none;
+
+}
+h2 {
+  font-family:'Raleway-ExtraBoldItalic';
+
+}
+
+.lists {
+           height:100%;
+           position: absolute;
+           left:0;
+           top:0;
+           width:250px;
+           margin-top:500px;
+
+}
+
+body {
+  
+  background: linear-gradient(to right, #584e4e, #020024),
+   url(../images/image3.jpg); /*blendmode to give the gradient a mix of hue*/
+  background-blend-mode: overlay;
+
+  background-size: 120px 80px;
+  background-size: 100% 20%;
+  background-size: contain;
+  background-size: cover;
+    
+  /*background to; contain and cover to get an auto scale sizing*/
+      
+}
+        
+#CR { /*0 absolute positon to drop the footer down*/
+  position: absolute;
+   bottom: 0;
+}
+    
+h2 {
+    font-family:'Franklin Gothic Medium';
+  
+}
+
+.vertical-menu {
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    /*flex to position the menu in a virtical column*/
+       flex-wrap: wrap;
+       flex-shrink: 1;
+       flex-basis: 29px;
+  
+       width: 200px;
+       height: 150px;
+       overflow-y: auto;
+       
+}
+
+@font-face {
+  
+  font-family:Arial, Helvetica, sans-serif;
+  src: url(./assets/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+.maps li {
+       
+  font-family:'Raleway-Italic-VariableFont_wght.ttf';
+  list-style: none;
+}
+
+
+
+
+
+
